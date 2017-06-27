@@ -1,0 +1,163 @@
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Cascadas con Materialize</title>
+      <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <main>
+    <div class="navbar">
+            <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="http://twitter.com">Twitter</a></li>
+        <li><a href="http://facebook.com">Facebook</a></li>
+        <li class="divider"></li>
+        <li><a href="http://instagram.com">Instagram</a></li>
+      </ul>
+      <!-- Dropdown Structure -->
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="http://twitter.com">Twitter</a></li>
+        <li><a href="http://facebook.com">Facebook</a></li>
+        <li class="divider"></li>
+        <li><a href="http://instagram.com">Instagram</a></li>
+      </ul>
+      <nav class="purple lighten-4">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">&nbsp;<img src="img/logo.jpg" width="60" height="60"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Redes Sociales<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Redes Sociales<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+
+        <div class="section red lighten-4"><div class="row container"><h2 class="center">Las Mejores Cascadas</h2></div></div>
+        <div class="parallax-container">
+	      <div class="parallax"><img src="img/cataratas1.jpg" width="800" height="800"></div>
+	      </div>
+	      <div class="section red lighten-4"><div class="row container"><h2 class="center">Que maravilla</h2></div>
+	      </div>
+	      <div class="parallax-container">
+	      <div class="parallax"><img src="img/cataratas2.jpg"></div>
+	      </div>
+	   
+
+	    <br>
+      <br>
+      <!--Carrousel-->
+	    <div class="carousel">
+		    <a class="carousel-item" href="#one!"><img src="img/cataratas3.jpg"></a>
+		    <a class="carousel-item" href="#two!"><img src="img/cataratas4.jpg"></a>
+		    <a class="carousel-item" href="#three!"><img src="img/cataratas5.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="img/cataratas6.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="img/cataratas7.jpg"></a>
+        <a class="carousel-item" href="#six!"><img src="img/cataratas8.jpg"></a>
+        <a class="carousel-item" href="#seven!"><img src="img/cataratas9.jpg"></a>
+        <a class="carousel-item" href="#eight!"><img src="img/cataratas10.jpg"></a>
+		</div>
+    <br>
+    <br>
+
+		<!--Formulario-->
+    <h4>Si quieres recibir más información sobre las mejores cascadas del mundo registrate aquí</h4>
+    <br>
+    <br>
+		<div class="row">
+
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Usuario" id="first_name" type="text" class="validate">
+          <label for="first_name"><i class="small material-icons">person_pin</i> Usuario</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="Quiero recibir información sobre las mejores cascadas del mundo" id="disabled" type="text" class="validate">
+          <label for="disabled"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password"><i class=" small material-icons">vpn_key</i> Contraseña</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email"><i class="material-icons">email</i> Email</label>
+        </div>
+      </div>
+      <!--<div class="row">
+        <div class="col s12">
+          Valida tu correo:
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="Correo inválido" data-success="Bien"><i class="material-icons">email</i> Email</label>
+          </div>
+        </div>
+      </div>-->
+    </form>
+  </div>
+
+    <!--<p>
+      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+      <label for="filled-in-box">Aceptar</label>
+    </p>-->
+    <button type="submit" class="btn btn-info">Aceptar</button>
+    <br>
+    <div class="center"><img src="img/cascadas.jpg" width="350" height="350"></div>
+
+      </main>
+
+      <!--Aqui comienza el footer-->
+        <footer class="page-footer purple lighten-4">
+          <div class="container">
+            <div class="row">
+              <div class="col m6">
+                <h5 class="white-text">Descarga desde las tiendas de app  <i class="material-icons">stay_primary_portrait</i></h5>
+              </div>
+              <div class="col m6 center">
+                <h5 class="white-text">Contacto</h5>
+                <span class="white-text">cascadas@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            <small> © 2017 Copyright</small>
+            </div>
+          </div>
+        </footer>
+    </body>
+    <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script>
+       $(document).ready(function(){
+          $(".button-collapse").sideNav();
+          $('.parallax').parallax();
+          $('.carousel').carousel();
+         });
+      </script>
+  </html>

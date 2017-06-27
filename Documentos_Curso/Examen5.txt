@@ -1,0 +1,23 @@
+1. Que es Javascript
+	Lenguaje de programación para diseñar páginas web
+2. Como se declara una variable
+	var
+3. Javascript es fuertemente tipado?
+	si
+4. Escribe un ciclo for
+	for(i;i>10;i++)
+5. Que es- un método+
+	
+6. Como  imprimir en consola
+	console.log("hola");
+7. Qué es un atributo
+	algo que describe a cierto objeto
+8. Que es una clase
+	molde que se ocupa para describir nuestro mundo actual. Cosa general de donde se saca objeto
+9. 4 pilares  POO
+	Abstracción
+	Herencia
+	Polimorfismo
+	Encapsulamiento
+10. Que pasa si sumo una cadena con un entero?
+	Concatena

@@ -1,0 +1,29 @@
+1) ¿Qué es materialize?
+framework de css basado en material design
+2) ¿Qué es el parallax?
+elemento de bootstrap que hace el efecto de mover un objeto a velocidad diferente del cursor
+3) ¿Cómo se inicializa el parallax?
+$(document).ready(function(){
+          $('.parallax').parallax();
+});
+4) ¿Cómo se divide el Grid en dos partes con Materialize?
+<div class "row">
+	<div class="col m6">algo
+	</div>
+	<div class="col m6">algo
+	</div>
+
+5) ¿Qué es material design?
+
+6) ¿Cómo se inicializa un dropDown?
+$(document).ready(function(){ 
+          $(".dropdown-buttom").dropdown();
+});
+7) ¿Cómo se inserta código javascript en html?
+ Con las etiquetas script <script src="js/jquery-3.2.1.js"></script>
+8) ¿Cómo se inserta CSS en html?
+con las etiquetas style
+9) ¿Para qué sirve la clase container?
+hacer mas amigable y sirve para agrupar y darle un estilo a lo que se agrupa
+10) ¿Cuales son los tamaños de dispositivos en materialize? (hablando del grid)
+s, m, l y lg

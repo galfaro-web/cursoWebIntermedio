@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tercer ejemplo, usando input</title>
+</head>
+<body>
+	<input id="miinput" type="text" value="Valor predeterminado">
+	<button id="boton">¿Qué quieres poner?</button>
+	<div id="primerdiv">-->Aquí esta mi div</div>
+</body>
+<script>
+	document.getElementById("boton").onclick=function(){
+		var texto = document.getElementById("miinput").value;
+		document.getElementById("primerdiv").innerHTML = texto;
+	}
+</script>
+
+</html>

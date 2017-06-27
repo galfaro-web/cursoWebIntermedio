@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Segundo Ejemplo JavaScript</title>
+</head>
+<body>
+	<button id="cambiaTexto">Cambia el primer div</button>
+	<div id="primerdiv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ipsa consectetur, ut cum hic aspernatur, velit deleniti officiis molestiae fugit nostrum eum voluptatum delectus, exercitationem explicabo harum ducimus numquam est.</div>
+	<br>
+	<br>
+	<button id="concatenar">Concateno texto al segundo div</button>
+	<div id="segundodiv">El títular del curso es: </div>
+	<br>
+	<br>
+	<button id="creador">Crea texto html</button>
+	<div id="tercerdiv"></div>
+	<br>
+	<br>
+	<button id="sumar">Suma</button>
+	<div id="cuartodiv"></div>
+</body>
+<script>
+	document.getElementById("cambiaTexto").onclick = function(){ /*documento html, método y atributo que queremos afectar. 
+																Función anonima*/
+		console.log("Imprimí en consola");
+		alert(document.getElementById("primerdiv").innerHTML); //Utilizando getElementId como getter. Para obtener
+	}
+	document.getElementById("concatenar").onclick=function(){
+		document.getElementById("segundodiv").innerHTML=document.getElementById("segundodiv").innerHTML + "Luis Lara (Ludo)";
+	}
+	document.getElementById("creador").onclick=function(){
+		document.getElementById("tercerdiv").innerHTML="<h3>Hola, fui creado por JavaScript =)</h3>"
+	}
+	function suma(a, b){
+		return a+b;
+	}
+	function imprimirSumaDiv(a,b){
+		document.getElementById("cuartodiv").innerHTML = a+b;
+	}
+	//console.log(suma(10,8));
+	document.getElementById("sumar").onclick=function(){
+		imprimirSumaDiv(20,10);
+	}	
+</script>
+</html>

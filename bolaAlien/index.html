@@ -1,0 +1,29 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bola Alien</title>
+</head>
+<body>
+  <script>
+    var texto = prompt("Realiza tu pregunta:");
+      var opcion = Math.floor(Math.random()*4);
+      var respuesta;
+      if (opcion == 0){
+        respuesta="SI";
+      }
+      else if (opcion == 1){
+        respuesta="NO";
+      }
+      else if (opcion ==2){
+        respuesta="PROBABLEMENTE";
+      }
+      else if (opcion ==3){
+        respuesta="DEFINITIVAMENTE";
+      }
+      else
+        respuesta="! ERROR !";
+      alert(respuesta);
+  </script>
+</body>
+</html>

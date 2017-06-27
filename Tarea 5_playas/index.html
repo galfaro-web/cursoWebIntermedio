@@ -1,0 +1,129 @@
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Playas de México</title>
+      <meta charset="UTF-8">
+      <link rel="shortcut icon" typ="image/x-icon" href="img/icono.ico">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <main>
+    <div class="navbar">
+            <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="http://twitter.com">Twitter</a></li>
+        <li><a href="http://facebook.com">Facebook</a></li>
+        <li class="divider"></li>
+        <li><a href="http://instagram.com">Instagram</a></li>
+      </ul>
+      <!-- Dropdown Structure -->
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="http://twitter.com">Twitter</a></li>
+        <li><a href="http://facebook.com">Facebook</a></li>
+        <li class="divider"></li>
+        <li><a href="http://instagram.com">Instagram</a></li>
+      </ul>
+      <nav class="indigo lighten-1">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">&nbsp;<img src="img/logoplaya.jpg" width="60" height="60"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="playas.html">Playas</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Redes Sociales<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="playas.html">Playas</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Redes Sociales<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+
+        <div class="section blue lighten-1"><div class="row container"><h2 class="center">Las Mejores Playas de México</h2></div></div>
+        <div class="parallax-container">
+	      <div class="parallax"><img src="img/playas.jpg" width="800" height="800"></div>
+	      </div>
+	      <div class="section blue lighten-1"><div class="row container"></div>
+	      </div>
+	      <div class="parallax-container">
+	      <div class="parallax"><img src="img/playas2.jpg"></div>
+	      </div>
+	   
+
+	    <br>
+      <br>
+      
+    <div class="container">
+        <div class="row">
+          <div class="col m12">
+            <h3><center>¿Quiénes somos?</center></h3>
+            <p>Somos un grupo de agencias de turismo que nos interesamos por promover las playas de la República Mexicana</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m6">
+            <h4><center>Misión</center> </h4>
+            <p>Ofrecer información sobre algunas de las playas más conocidas y visitadas por miles de turistas al año. Con el objetivo de promover el turismo nacional. Además de proporcionar enlaces a donde nuestros visitantes puedan enlazarse y obtener más información.  </p>
+          </div>
+          <div class="col m6">
+            <h4><center>Visión</center> </h4>
+            <p>Ser el mejor consorcio de agencias de turismo a nivel nacional. Así como proporcionar atención personalizada a nuestros usuarios y visitantes virtuales. Y así poder formar parte de los viajes más importantes e inolvidables del público. </p>
+          </div>        
+        </div>
+        <div class="row">
+          <div class="col m12">
+            <h4><center>¿Cómo funciona?</center></h4>
+            <p>Nuestros visitantes pueden ver una galería de imágenes de las diferentes playas que ofrecemos, así como conocer información enlazándose a sitios donde muestran más datos sobre hospedaje, ubicación geográfica. Además les ofrecemos atención personalizada por medio de las redes sociales o el correo electrónico.</p>
+          </div>
+        </div>
+      </div>
+		
+  </div>
+
+    
+    <!--<div class="center"><img src="img/cascadas.jpg" width="350" height="350"></div>-->
+
+      </main>
+
+      <!--Aqui comienza el footer-->
+        <footer class="page-footer indigo lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col m6">
+                <h5 class="white-text">Descarga desde las tiendas de app  <i class="material-icons">stay_primary_portrait</i></h5>
+              </div>
+              <div class="col m6 center">
+                <h5 class="white-text">Contacto</h5>
+                <span class="white-text">playasmexico@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            <small> © 2017 Copyright</small>
+            </div>
+          </div>
+        </footer>
+    </body>
+    <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script>
+       $(document).ready(function(){
+          $(".button-collapse").sideNav();
+          $('.parallax').parallax();
+         });
+      </script>
+  </html>
